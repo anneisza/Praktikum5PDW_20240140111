@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #aaadce, #749dca, #6bb2d9)
+}
+
+h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    max-width: 800px;
+    background-color: rgba(215, 220, 223, 0.5);
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.3); 
+}
+
+audio {
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.3); 
+    border-radius: 100px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse:collapse ;
+    background-color: rgb(190, 220, 233, 0.8);
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.3); 
+}
+
+.coloumnName {
+    font-family: 'Megrim';
+    background-color: rgb(117, 186, 215);
+    color: rgb(2, 48, 87);
+    font-size: 30px;
+    font-style: oblique;
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.3); 
+    text-align: center;
+}
+
+
+td{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 1.5px solid rgb(22, 88, 116);
+    border-top: 1.5px solid rgb(22, 88, 116);
+    border-left: 1.5px solid rgb(22, 88, 116);
+    border-right: 1.5px solid rgb(22, 88, 116);
+    color: rgb(11, 117, 162);
+    vertical-align: top;
+}
+
+
+img {
+    max-width: 250px;
+    border-radius: 50px;
+    border-style: dashed;
+    box-shadow: 7px 7px 14px rgba(6, 114, 246, 0.3);
+}
+
+img:hover{
+    box-shadow: 10px 10px 20px rgba(231, 19, 97, 0.3);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+b {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    color: #333;
+    font-style: italic;
+    font-size: 20px;
+}
+
